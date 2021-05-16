@@ -1,16 +1,103 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: lavenderblush;
     font-size: 120%;
+    margin: 10;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.sec0 {
+    height: 100%;
+    position: flex;
+    top: 100%; right: 0; left: 0;
+    transition-delay: 0.5s;
+    height: 100vh;
+}
+.sec1 {
+    margin-top: 0;
+    background-image: url("cute\ sky.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    font-size: 250%;   
+    align-items: center;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    top: 100%; right: 0; left: 0;
+    width: 100%;
+    color:ivory;
+    background-color:rgb(175, 206, 231);
+    vertical-align: auto;
+}
+
+.sec3 {
+    background-image: url("cute\ pink.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    font-size: 250%;   
+    align-items: center;
+    margin-top: 0px;
+    box-sizing: border-box;
+    height: 100vh;
+    top: 100%; right: 0; left: 0;
+    width: 100%;
+    color:ivory;
+    background-color:rgb(175, 206, 231);
+    vertical-align: auto;
 }
 h1 {
+    margin-top: 50;
+    margin-bottom: 0;
+    font-size: 300%;
     color:lightslategray;
 }
+
+h2, h3 {
+    margin: 0;
+    padding: 0;
+    margin-top: 50;
+    font-size: 150%;
+}
 .pic img{
-    right: 0;
     width: 200px;
     height: 200px;
 }
-p {
+.pic {
+    position: center;
+
+}
+p , .text{
     color:lightslategray;
     font-size: 100%;
+}
+
+.kitty1 {
+    background-image: url("kitty.jpg");
+    min-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.kitty2 {
+    background-image: url("kit.jpg");
+    min-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.kitty3 {
+    background-image: url("cat.jpg.jpg");
+    min-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
