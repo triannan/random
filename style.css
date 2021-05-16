@@ -2,7 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    font-family:fantasy;
+    font-family:monospace;
     background-color: lavenderblush;
     font-size: 150%;
     margin: 10;
