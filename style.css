@@ -1,0 +1,16 @@
+body {
+    background-color: lavenderblush;
+    font-size: 120%;
+}
+h1 {
+    color:lightslategray;
+}
+.pic img{
+    right: 0;
+    width: 200px;
+    height: 200px;
+}
+p {
+    color:lightslategray;
+    font-size: 100%;
+}
