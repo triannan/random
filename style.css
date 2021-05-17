@@ -5,7 +5,7 @@ body {
     scroll-behavior: smooth;
     font-family:monospace;
     background-color: lavenderblush;
-    font-size: 150%;
+    font-size: 1.5vh;
     margin: 10;
     text-align: center;
     justify-content: center;
@@ -18,33 +18,43 @@ body {
     position: flex;
     top: 100%; right: 0; left: 0;
     transition-delay: 0.5s;
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
 .sec1 {
+    background-color:rgb(197, 210, 228);
+    height: 100%;
+    font-size: 3vh;
+    align-items: center;
+    top: 100; right:0; left:0; bottom: 100;
+    padding: 50px 0 50px;
+}
+.sec2 {
+    display: block;
+    overflow: auto;
+    min-height: 100%;
     background-attachment: fixed;
     background-image: url("cute\ sky.jpg");
     background-repeat: no-repeat;
     background-size:cover;
-    font-size: 250%;   
+    font-size: 2vh;   
     align-items: center;
     margin: 0;
     box-sizing: border-box;
-    height: 100vh;
     top: 100%; right: 0; left: 0;
     width: 100%;
-    color:ivory;
+    color:rgb(197, 215, 224);
 }
 .sec3 {
     background-attachment: fixed;
     background-image: url("cute\ pink.png");
     background-repeat: no-repeat;
     background-size:cover;
-    font-size: 250%;   
+    font-size: 2vh;   
     align-items: center;
     margin-top: 0px;
     box-sizing: border-box;
-    height: 100vh;
+    height: 100%;
     top: 100%; right: 0; left: 0;
     width: 100%;
     color:ivory;
@@ -59,16 +69,16 @@ and (max-device-height: 1024px) and (max-device-width: 1024px){
 h1 {
     margin-top: 50;
     margin-bottom: 0;
-    font-size: 300%;
+    font-size: 4.5vh;
     color:lightslategray;
     width: 100%;
 }
 
-h2, h3 {
+h2, h3, h4 {
     margin: 0;
     padding: 0;
     margin-top: 50;
-    font-size: 150%;
+    font-size: 4vh;
     width: 100%;
 }
 .pic img{
@@ -81,12 +91,12 @@ h2, h3 {
 }
 p , .text{
     color:lightslategray;
-    font-size: 100%;
+    font-size: 2vh;
     width: 100%;
 }
 .kitty1 {
     background-image: url("kitty.jpg");
-    min-height: 200px;
+    min-height: 2vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -94,7 +104,7 @@ p , .text{
 }
 .kitty2 {
     background-image: url("kit.jpg");
-    min-height: 200px;
+    min-height: 2vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -102,9 +112,18 @@ p , .text{
 }
 .kitty3 {
     background-image: url("cat.jpg.jpg");
-    min-height: 200px;
+    min-height: 2vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+#about_me {
+    word-wrap: break-word;
+}
+#my_skills {
+    word-wrap: break-word;
+}
+#my_port {
+    word-wrap: break-word;
 }
