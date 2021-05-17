@@ -1,2 +1,2 @@
-# trianna
-my personal website
+# random
+a random website idk lol for funsies
